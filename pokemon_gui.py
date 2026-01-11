@@ -135,13 +135,19 @@ class EloApp:
     # ---------------- Pair Handling ---------------- #
     def next_pair(self, init=None):
         a, b = select_pair(self.items, init)
-        if self.items[b]["rating"] > self.items[a]["rating"]:
-            a, b = b, a
-        self.a, self.b = a, b
+        ar = self.items[a]["rating"]
+        br = self.items[b]["rating"]
+        if br > ar:
+            self.a, self.b = b, a
+            ar, br = br, ar
+        else:
+            self.a, self.b = a, b
 
         # Show names immediately and use placeholder for images
-        self.a_button.config(text=self.a, image=self.PLACEHOLDER_IMG)
-        self.b_button.config(text=self.b, image=self.PLACEHOLDER_IMG)
+        text = f"{self.a} ({ar:.1f})"
+        self.a_button.config(text=text, image=self.PLACEHOLDER_IMG)
+        text = f"{self.b} ({br:.1f})"
+        self.b_button.config(text=text, image=self.PLACEHOLDER_IMG)
 
         # Load sprites in parallel
         threading.Thread(
