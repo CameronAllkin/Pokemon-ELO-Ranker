@@ -126,10 +126,12 @@ def show_ranking(items, top=10, bottom=10):
 
     print(" - Ranking - \n")
     for i, (name, data) in enumerate(ranked[:top]):
-        print(f"{i+1:{strlen}d}. {name:20s} {data["rating"]:10.2f}")
+        rating = data["rating"]
+        print(f"{i+1:{strlen}d}. {name:20s} {rating:10.2f}")
     print("...")
     for i, (name, data) in enumerate(ranked[-bottom:]):
-        print(f"{len(ranked)-bottom+i+1:{strlen}d}. {name:20s} {data["rating"]:10.2f}")
+        rating = data["rating"]
+        print(f"{len(ranked)-bottom+i+1:{strlen}d}. {name:20s} {rating:10.2f}")
     input()
 
 
