@@ -129,8 +129,14 @@ class EloApp:
 
         save_data(self.items)
         self.refresh_ranking()
-        self.next_pair(self.a) if random.random() > 0.5 else self.next_pair(self.b)
-
+        r = random.random()
+        if r < 0.33: self.next_pair(self.a) 
+        elif r < 0.66: self.next_pair(self.b)
+        else:
+            ar = self.items[self.a]["rounds"]
+            br = self.items[self.b]["rounds"]
+            if ar < br: self.next_pair(self.a)
+            else: self.next_pair(self.b)
 
     # ---------------- Pair Handling ---------------- #
     def next_pair(self, init=None):

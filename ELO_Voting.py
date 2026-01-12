@@ -71,21 +71,26 @@ def select_pair(items, init=None):
     a = init
     if init == None:
         r = random.random()
-        if r < 0.25: canditate = sorted(names, key=lambda x : items[x]["rounds"])
-        elif r < 0.5: canditate = sorted(names, key=lambda x : items[x]["rating"])
-        elif r < 0.75: canditate = sorted(names, key=lambda x : items[x]["rounds"], reverse=True)
-        else: canditate = sorted(names, key=lambda x : items[x]["rating"], reverse=True)
-        a = random.choice(canditate[:math.ceil(len(canditate)/CAND_TOP)])
+        if r < 0.25: candidate = sorted(names, key=lambda x : items[x]["rounds"])
+        elif r < 0.5: candidate = sorted(names, key=lambda x : items[x]["rating"])
+        elif r < 0.75: candidate = sorted(names, key=lambda x : items[x]["rounds"], reverse=True)
+        else: candidate = sorted(names, key=lambda x : items[x]["rating"], reverse=True)
+        a = random.choice(candidate[:math.ceil(len(candidate)/CAND_TOP)])
     ar = items[a]["rating"]
 
-    if random.random() > CAND_TOP:
-        canditate = sorted([name for name in names if name != a], 
+    r = random.random()
+    if r < 0.4:
+        candidate = sorted([name for name in names if name != a], 
                            key=lambda x: abs(items[x]["rating"] - ar))
-    else: 
-        canditate = sorted([name for name in names if name != a], 
+    elif r < 0.8: 
+        candidate = sorted([name for name in names if name != a],
+                           key=lambda x: items[x]["rounds"])
+    else:
+        candidate = sorted([name for name in names if name != a], 
                            key=lambda x: abs(items[x]["rating"] - ar), reverse=True)
+    
 
-    b = random.choice(canditate[:math.ceil(len(canditate)*CAND_TOP)])
+    b = random.choice(candidate[:math.ceil(len(candidate)*CAND_TOP)])
     return a, b
 
 
