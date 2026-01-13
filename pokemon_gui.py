@@ -40,6 +40,8 @@ class EloApp:
         self.root.title("Pokémon ELO Voting")
 
         self.items = load_data(load_list())
+        self.session_rounds = 0
+        self.total_rounds = sum(v["rounds"] for v in self.items.values())//2
         self.PLACEHOLDER_IMG = ImageTk.PhotoImage(Image.new("RGBA", IMG_SIZE, (0,0,0,0)))
 
         self.a = None
@@ -49,11 +51,20 @@ class EloApp:
 
         self.build_ui()
         self.refresh_ranking()
+        self.update_round_label()
         self.next_pair()
 
     # ---------------- UI ---------------- #
     def build_ui(self):
         main = ttk.Frame(self.root, padding=10)
+        header = ttk.Frame(self.root, padding=8)
+        header.pack(fill="x")
+        self.rounds_label = ttk.Label(
+            header,
+            text="Session Votes: 0 | Total Votes: 0",
+            font=("Arial", 11)
+        )
+        self.rounds_label.pack()
         main.pack(fill="both", expand=True)
 
         # ===== Voting Panel =====
@@ -92,7 +103,17 @@ class EloApp:
         rank_frame = ttk.Frame(main)
         rank_frame.pack(side="right", fill="both", expand=True)
 
-        ttk.Label(rank_frame, text="Ranking", font=("Arial", 16)).pack()
+        ttk.Label(rank_frame, text="Ranking", font=("Arial", 16)).pack(pady=(0,5))
+        search_frame = ttk.Frame(rank_frame)
+        search_frame.pack(fill="x", padx=5)
+
+        ttk.Label(search_frame, text="Search:").pack(side="left")
+
+        self.search_var = tk.StringVar()
+        self.search_entry = ttk.Entry(search_frame, textvariable=self.search_var)
+        self.search_entry.pack(side="left", fill="x", expand=True, padx=5)
+
+        self.search_var.trace_add("write", lambda *_: self.refresh_ranking())
 
         columns = ("rank", "name", "rating")
         self.rank_table = ttk.Treeview(
@@ -122,6 +143,10 @@ class EloApp:
 
     # ---------------- Voting ---------------- #
     def vote(self, which):
+        self.session_rounds += 1
+        self.total_rounds += 1
+        self.update_round_label()
+
         if which == "a":
             update_elo(self.items, self.a, self.b, self.a)
         else:
@@ -196,11 +221,19 @@ class EloApp:
         if b_img:
             self.b_image = b_img
             self.b_button.config(image=self.b_image)
+    
+    def update_round_label(self):
+        self.rounds_label.config(
+            text=f"Session Votes: {self.session_rounds} | Total Votes: {self.total_rounds}"
+        )
+
 
     # ---------------- Ranking ---------------- #
     def refresh_ranking(self):
         for row in self.rank_table.get_children():
             self.rank_table.delete(row)
+
+        query = self.search_var.get().lower() if hasattr(self, "search_var") else ""
 
         ranked = sorted(
             self.items.items(),
@@ -208,12 +241,15 @@ class EloApp:
             reverse=True
         )
 
-        for i, (name, data) in enumerate(ranked, start=1):
+        for global_rank, (name, data) in enumerate(ranked, start=1):
+            if query and query not in name.lower():
+                continue
+
             self.rank_table.insert(
                 "",
                 "end",
                 values=(
-                    i,
+                    global_rank,           # ← real ELO rank
                     name.title(),
                     f"{data['rating']:.1f}"
                 )
