@@ -105,7 +105,7 @@ class EloApp:
 
         ttk.Label(rank_frame, text="Ranking", font=("Arial", 16)).pack(pady=(0,5))
         search_frame = ttk.Frame(rank_frame)
-        search_frame.pack(fill="x", padx=5)
+        search_frame.pack(fill="x", padx=5, pady=(0,5))
 
         ttk.Label(search_frame, text="Search:").pack(side="left")
 
@@ -115,7 +115,7 @@ class EloApp:
 
         self.search_var.trace_add("write", lambda *_: self.refresh_ranking())
 
-        columns = ("rank", "name", "rating")
+        columns = ("rank", "name", "rating", "rounds")
         self.rank_table = ttk.Treeview(
             rank_frame,
             columns=columns,
@@ -125,10 +125,12 @@ class EloApp:
         self.rank_table.heading("rank", text="#")
         self.rank_table.heading("name", text="Name")
         self.rank_table.heading("rating", text="Rating")
+        self.rank_table.heading("rounds", text="Rounds")
 
-        self.rank_table.column("rank", width=50, anchor="e")
+        self.rank_table.column("rank", width=35, anchor="e")
         self.rank_table.column("name", width=120, anchor="center")
-        self.rank_table.column("rating", width=60, anchor="e")
+        self.rank_table.column("rating", width=50, anchor="e")
+        self.rank_table.column("rounds", width=50, anchor="e")
 
         self.rank_table.pack(side="left", fill="both", expand=True)
 
@@ -251,7 +253,8 @@ class EloApp:
                 values=(
                     global_rank,           # ← real ELO rank
                     name.title(),
-                    f"{data['rating']:.1f}"
+                    f"{data['rating']:.1f}",
+                    f"{data['rounds']}"
                 )
             )
 
