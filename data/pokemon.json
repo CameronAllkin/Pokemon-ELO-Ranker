@@ -16,8 +16,8 @@
     "rounds": 22
   },
   "charmeleon": {
-    "rating": 1253.2852346909597,
-    "rounds": 19
+    "rating": 1255.1666854798225,
+    "rounds": 20
   },
   "charizard": {
     "rating": 1390.8335051268223,
@@ -72,8 +72,8 @@
     "rounds": 22
   },
   "rattata": {
-    "rating": 847.6282100448968,
-    "rounds": 33
+    "rating": 842.0670412139469,
+    "rounds": 34
   },
   "raticate": {
     "rating": 881.2416097648975,
@@ -96,8 +96,8 @@
     "rounds": 22
   },
   "pikachu": {
-    "rating": 1103.1200944848947,
-    "rounds": 20
+    "rating": 1093.5835477658761,
+    "rounds": 25
   },
   "raichu": {
     "rating": 1130.9955210961332,
@@ -124,8 +124,8 @@
     "rounds": 20
   },
   "nidoran-m": {
-    "rating": 965.9273306875418,
-    "rounds": 19
+    "rating": 1001.1502401535203,
+    "rounds": 23
   },
   "nidorino": {
     "rating": 1052.1790197457074,
@@ -136,8 +136,8 @@
     "rounds": 24
   },
   "clefairy": {
-    "rating": 971.0472710167294,
-    "rounds": 27
+    "rating": 965.2100995528749,
+    "rounds": 31
   },
   "clefable": {
     "rating": 958.0380573923808,
@@ -192,16 +192,16 @@
     "rounds": 24
   },
   "venomoth": {
-    "rating": 920.8124706779472,
-    "rounds": 21
+    "rating": 905.9267095178845,
+    "rounds": 22
   },
   "diglett": {
     "rating": 1013.5641424354856,
     "rounds": 21
   },
   "dugtrio": {
-    "rating": 1117.6910787820198,
-    "rounds": 21
+    "rating": 1132.3744070125324,
+    "rounds": 22
   },
   "meowth": {
     "rating": 1195.3390157127371,
@@ -212,8 +212,8 @@
     "rounds": 26
   },
   "psyduck": {
-    "rating": 1074.2572573804307,
-    "rounds": 19
+    "rating": 1054.9728448022913,
+    "rounds": 22
   },
   "golduck": {
     "rating": 852.6122902475056,
@@ -260,8 +260,8 @@
     "rounds": 33
   },
   "machop": {
-    "rating": 906.5373131057366,
-    "rounds": 21
+    "rating": 912.5511704658303,
+    "rounds": 22
   },
   "machoke": {
     "rating": 1068.8566126112487,
@@ -288,8 +288,8 @@
     "rounds": 20
   },
   "tentacruel": {
-    "rating": 1099.8849855706453,
-    "rounds": 19
+    "rating": 1107.4128100553053,
+    "rounds": 21
   },
   "geodude": {
     "rating": 985.4030281171761,
@@ -320,8 +320,8 @@
     "rounds": 19
   },
   "magnemite": {
-    "rating": 916.8198879617013,
-    "rounds": 30
+    "rating": 931.6143336177917,
+    "rounds": 31
   },
   "magneton": {
     "rating": 1071.2417578168363,
@@ -348,8 +348,8 @@
     "rounds": 27
   },
   "grimer": {
-    "rating": 1022.2323928714918,
-    "rounds": 19
+    "rating": 1047.105761500884,
+    "rounds": 20
   },
   "muk": {
     "rating": 1050.6526515990868,
@@ -396,8 +396,8 @@
     "rounds": 19
   },
   "voltorb": {
-    "rating": 1034.711541073539,
-    "rounds": 21
+    "rating": 1018.7264421324443,
+    "rounds": 22
   },
   "electrode": {
     "rating": 1080.7387725514775,
@@ -456,8 +456,8 @@
     "rounds": 26
   },
   "kangaskhan": {
-    "rating": 1084.732556993279,
-    "rounds": 20
+    "rating": 1100.6862067337784,
+    "rounds": 21
   },
   "horsea": {
     "rating": 974.6633292035629,
@@ -492,20 +492,20 @@
     "rounds": 28
   },
   "jynx": {
-    "rating": 1289.2866227035759,
-    "rounds": 20
+    "rating": 1296.9529054232758,
+    "rounds": 21
   },
   "electabuzz": {
     "rating": 1109.1715008308076,
     "rounds": 28
   },
   "magmar": {
-    "rating": 1111.6548951115217,
-    "rounds": 22
+    "rating": 1125.3868067269043,
+    "rounds": 23
   },
   "pinsir": {
-    "rating": 985.0281857696755,
-    "rounds": 24
+    "rating": 970.7600418250366,
+    "rounds": 25
   },
   "tauros": {
     "rating": 949.8548129028711,
@@ -552,8 +552,8 @@
     "rounds": 22
   },
   "omastar": {
-    "rating": 1169.6673785043379,
-    "rounds": 19
+    "rating": 1140.0892741842574,
+    "rounds": 20
   },
   "kabuto": {
     "rating": 1178.1379652679439,
@@ -572,8 +572,8 @@
     "rounds": 22
   },
   "articuno": {
-    "rating": 1374.0560660568256,
-    "rounds": 24
+    "rating": 1375.8105657533827,
+    "rounds": 25
   },
   "zapdos": {
     "rating": 1370.4630118924536,
@@ -588,8 +588,8 @@
     "rounds": 31
   },
   "dragonair": {
-    "rating": 1365.3191475931371,
-    "rounds": 42
+    "rating": 1356.6061760788164,
+    "rounds": 44
   },
   "dragonite": {
     "rating": 1426.73239105696,
@@ -672,8 +672,8 @@
     "rounds": 27
   },
   "crobat": {
-    "rating": 1355.5787545713004,
-    "rounds": 23
+    "rating": 1371.4037656242383,
+    "rounds": 26
   },
   "chinchou": {
     "rating": 809.0931511174159,
@@ -696,8 +696,8 @@
     "rounds": 21
   },
   "togepi": {
-    "rating": 1286.6903553872294,
-    "rounds": 19
+    "rating": 1299.6943851600067,
+    "rounds": 20
   },
   "togetic": {
     "rating": 1257.821058317342,
@@ -748,12 +748,12 @@
     "rounds": 21
   },
   "skiploom": {
-    "rating": 868.6237757036503,
-    "rounds": 18
+    "rating": 824.812488909387,
+    "rounds": 20
   },
   "jumpluff": {
-    "rating": 877.6282441766268,
-    "rounds": 20
+    "rating": 874.4378600606791,
+    "rounds": 25
   },
   "aipom": {
     "rating": 891.6192420288221,
@@ -820,8 +820,8 @@
     "rounds": 21
   },
   "dunsparce": {
-    "rating": 1179.320324753772,
-    "rounds": 18
+    "rating": 1186.8007052509995,
+    "rounds": 19
   },
   "gligar": {
     "rating": 1120.8191665953957,
@@ -852,8 +852,8 @@
     "rounds": 32
   },
   "heracross": {
-    "rating": 1068.078113332074,
-    "rounds": 23
+    "rating": 1081.4662319119068,
+    "rounds": 26
   },
   "sneasel": {
     "rating": 781.6078226566441,
@@ -868,20 +868,20 @@
     "rounds": 19
   },
   "slugma": {
-    "rating": 1072.547986691766,
-    "rounds": 21
+    "rating": 1056.65013493169,
+    "rounds": 22
   },
   "magcargo": {
     "rating": 1126.4676596449872,
     "rounds": 23
   },
   "swinub": {
-    "rating": 897.4184895214636,
-    "rounds": 20
+    "rating": 869.4408494890845,
+    "rounds": 26
   },
   "piloswine": {
-    "rating": 958.6085627290474,
-    "rounds": 26
+    "rating": 974.0165501526318,
+    "rounds": 27
   },
   "corsola": {
     "rating": 953.3626209280507,
@@ -896,8 +896,8 @@
     "rounds": 23
   },
   "delibird": {
-    "rating": 1041.1747039013478,
-    "rounds": 29
+    "rating": 1030.8568450968833,
+    "rounds": 30
   },
   "mantine": {
     "rating": 951.9923957284792,
@@ -1052,8 +1052,8 @@
     "rounds": 19
   },
   "linoone": {
-    "rating": 824.0957362393016,
-    "rounds": 21
+    "rating": 805.3981920748281,
+    "rounds": 24
   },
   "wurmple": {
     "rating": 963.3041946509161,
@@ -1068,8 +1068,8 @@
     "rounds": 21
   },
   "cascoon": {
-    "rating": 819.5669182257069,
-    "rounds": 23
+    "rating": 814.3208800261069,
+    "rounds": 24
   },
   "dustox": {
     "rating": 817.5333072747469,
@@ -1172,8 +1172,8 @@
     "rounds": 38
   },
   "loudred": {
-    "rating": 687.9990737243293,
-    "rounds": 27
+    "rating": 674.4250233126712,
+    "rounds": 28
   },
   "exploud": {
     "rating": 941.2771887123363,
@@ -1216,8 +1216,8 @@
     "rounds": 23
   },
   "lairon": {
-    "rating": 1193.1762040039084,
-    "rounds": 18
+    "rating": 1207.1621474429699,
+    "rounds": 19
   },
   "aggron": {
     "rating": 1337.6912254657523,
@@ -1284,8 +1284,8 @@
     "rounds": 30
   },
   "numel": {
-    "rating": 992.4113236453364,
-    "rounds": 19
+    "rating": 974.5421479856383,
+    "rounds": 20
   },
   "camerupt": {
     "rating": 934.3129236673232,
@@ -1316,8 +1316,8 @@
     "rounds": 22
   },
   "flygon": {
-    "rating": 1439.3662395092283,
-    "rounds": 29
+    "rating": 1457.8471325476273,
+    "rounds": 32
   },
   "cacnea": {
     "rating": 935.3508335033375,
@@ -1368,8 +1368,8 @@
     "rounds": 19
   },
   "baltoy": {
-    "rating": 959.1877160491721,
-    "rounds": 17
+    "rating": 978.7505832671706,
+    "rounds": 18
   },
   "claydol": {
     "rating": 1202.1612833924348,
@@ -1440,8 +1440,8 @@
     "rounds": 24
   },
   "snorunt": {
-    "rating": 887.2480630006265,
-    "rounds": 24
+    "rating": 870.2400756151579,
+    "rounds": 26
   },
   "glalie": {
     "rating": 972.5031110078517,
@@ -1496,8 +1496,8 @@
     "rounds": 31
   },
   "metang": {
-    "rating": 1367.6396841111227,
-    "rounds": 22
+    "rating": 1375.5934058934379,
+    "rounds": 24
   },
   "metagross": {
     "rating": 1352.6075260114403,
@@ -1512,8 +1512,8 @@
     "rounds": 20
   },
   "registeel": {
-    "rating": 1247.7166484393852,
-    "rounds": 31
+    "rating": 1253.9567026912202,
+    "rounds": 34
   },
   "latias": {
     "rating": 1422.046056880327,
@@ -1540,8 +1540,8 @@
     "rounds": 23
   },
   "deoxys": {
-    "rating": 1303.1215754430687,
-    "rounds": 21
+    "rating": 1305.1880758141817,
+    "rounds": 24
   },
   "turtwig": {
     "rating": 1172.8148636567007,
@@ -1552,8 +1552,8 @@
     "rounds": 22
   },
   "torterra": {
-    "rating": 1255.027033982017,
-    "rounds": 19
+    "rating": 1256.6045748070906,
+    "rounds": 20
   },
   "chimchar": {
     "rating": 1185.0664857830304,
@@ -1596,8 +1596,8 @@
     "rounds": 21
   },
   "bibarel": {
-    "rating": 1030.2925613226696,
-    "rounds": 18
+    "rating": 1044.9278147864147,
+    "rounds": 21
   },
   "kricketot": {
     "rating": 722.4963229201236,
@@ -1636,8 +1636,8 @@
     "rounds": 26
   },
   "shieldon": {
-    "rating": 1104.0731698751313,
-    "rounds": 19
+    "rating": 1079.5747669298605,
+    "rounds": 22
   },
   "bastiodon": {
     "rating": 965.1129021480242,
@@ -1720,8 +1720,8 @@
     "rounds": 31
   },
   "glameow": {
-    "rating": 900.395779947883,
-    "rounds": 19
+    "rating": 925.1704376632626,
+    "rounds": 20
   },
   "purugly": {
     "rating": 999.5088158182252,
@@ -1768,8 +1768,8 @@
     "rounds": 27
   },
   "gible": {
-    "rating": 1286.5387803719545,
-    "rounds": 23
+    "rating": 1294.268978372194,
+    "rounds": 25
   },
   "gabite": {
     "rating": 1406.953784649371,
@@ -1796,8 +1796,8 @@
     "rounds": 19
   },
   "hippowdon": {
-    "rating": 1011.49968466029,
-    "rounds": 19
+    "rating": 980.6683743222334,
+    "rounds": 21
   },
   "skorupi": {
     "rating": 941.8719934770266,
@@ -1840,12 +1840,12 @@
     "rounds": 20
   },
   "weavile": {
-    "rating": 1076.6623888435795,
-    "rounds": 19
+    "rating": 1058.3640541477644,
+    "rounds": 22
   },
   "magnezone": {
-    "rating": 1125.100975064187,
-    "rounds": 18
+    "rating": 1158.9332008645592,
+    "rounds": 20
   },
   "lickilicky": {
     "rating": 852.8096090329127,
@@ -1864,8 +1864,8 @@
     "rounds": 18
   },
   "magmortar": {
-    "rating": 1261.032279915013,
-    "rounds": 24
+    "rating": 1249.3308838457515,
+    "rounds": 26
   },
   "togekiss": {
     "rating": 1280.1773240775935,
@@ -1880,8 +1880,8 @@
     "rounds": 23
   },
   "glaceon": {
-    "rating": 1264.9371921222541,
-    "rounds": 19
+    "rating": 1264.7185375430727,
+    "rounds": 21
   },
   "gliscor": {
     "rating": 1241.3352041958087,
@@ -1904,8 +1904,8 @@
     "rounds": 20
   },
   "dusknoir": {
-    "rating": 1272.502730426591,
-    "rounds": 19
+    "rating": 1280.1852271693363,
+    "rounds": 20
   },
   "froslass": {
     "rating": 1168.3467904128886,
@@ -1956,8 +1956,8 @@
     "rounds": 19
   },
   "manaphy": {
-    "rating": 1250.699217573212,
-    "rounds": 22
+    "rating": 1262.299584379867,
+    "rounds": 23
   },
   "darkrai": {
     "rating": 1450.430378679838,
@@ -1992,16 +1992,16 @@
     "rounds": 23
   },
   "pignite": {
-    "rating": 1114.0413093340542,
-    "rounds": 19
+    "rating": 1127.7719981608916,
+    "rounds": 21
   },
   "emboar": {
     "rating": 1234.8271042339857,
     "rounds": 27
   },
   "oshawott": {
-    "rating": 1119.7675336269656,
-    "rounds": 27
+    "rating": 1107.297263903426,
+    "rounds": 30
   },
   "dewott": {
     "rating": 1031.206192099833,
@@ -2024,8 +2024,8 @@
     "rounds": 26
   },
   "herdier": {
-    "rating": 708.2279670379112,
-    "rounds": 32
+    "rating": 748.2001784691197,
+    "rounds": 35
   },
   "stoutland": {
     "rating": 930.5612372634488,
@@ -2052,8 +2052,8 @@
     "rounds": 27
   },
   "simisear": {
-    "rating": 784.792243816367,
-    "rounds": 19
+    "rating": 773.773942009574,
+    "rounds": 21
   },
   "panpour": {
     "rating": 718.0047283884586,
@@ -2088,8 +2088,8 @@
     "rounds": 24
   },
   "zebstrika": {
-    "rating": 975.6453029519928,
-    "rounds": 19
+    "rating": 998.6794266973793,
+    "rounds": 20
   },
   "roggenrola": {
     "rating": 704.8667443490281,
@@ -2120,12 +2120,12 @@
     "rounds": 20
   },
   "audino": {
-    "rating": 757.408152913282,
-    "rounds": 34
+    "rating": 754.7493486970121,
+    "rounds": 36
   },
   "timburr": {
-    "rating": 959.3434992004317,
-    "rounds": 27
+    "rating": 944.0546769305428,
+    "rounds": 28
   },
   "gurdurr": {
     "rating": 1113.6303935222102,
@@ -2136,8 +2136,8 @@
     "rounds": 20
   },
   "tympole": {
-    "rating": 668.8277879738195,
-    "rounds": 31
+    "rating": 646.3544978352058,
+    "rounds": 35
   },
   "palpitoad": {
     "rating": 728.1551428711095,
@@ -2148,8 +2148,8 @@
     "rounds": 20
   },
   "throh": {
-    "rating": 997.1604356994455,
-    "rounds": 19
+    "rating": 975.1213288584705,
+    "rounds": 20
   },
   "sawk": {
     "rating": 898.6398871609681,
@@ -2164,16 +2164,16 @@
     "rounds": 24
   },
   "leavanny": {
-    "rating": 939.644752540661,
-    "rounds": 17
+    "rating": 937.8113824601127,
+    "rounds": 21
   },
   "venipede": {
     "rating": 982.016322924611,
     "rounds": 22
   },
   "whirlipede": {
-    "rating": 1096.0930167499555,
-    "rounds": 19
+    "rating": 1093.8106621965942,
+    "rounds": 22
   },
   "scolipede": {
     "rating": 1053.4040072904822,
@@ -2204,8 +2204,8 @@
     "rounds": 24
   },
   "krokorok": {
-    "rating": 854.0111909453026,
-    "rounds": 27
+    "rating": 839.1139472608328,
+    "rounds": 28
   },
   "krookodile": {
     "rating": 1090.7581238495009,
@@ -2276,24 +2276,24 @@
     "rounds": 26
   },
   "zorua": {
-    "rating": 1433.407109517837,
-    "rounds": 26
+    "rating": 1436.8840815744365,
+    "rounds": 27
   },
   "zoroark": {
     "rating": 1423.6301929888064,
     "rounds": 26
   },
   "minccino": {
-    "rating": 880.2735159779861,
-    "rounds": 18
+    "rating": 877.8772827634313,
+    "rounds": 22
   },
   "cinccino": {
     "rating": 835.7731761321613,
     "rounds": 22
   },
   "gothita": {
-    "rating": 862.2354814660624,
-    "rounds": 18
+    "rating": 913.9673712877491,
+    "rounds": 20
   },
   "gothorita": {
     "rating": 1052.2024405685036,
@@ -2384,16 +2384,16 @@
     "rounds": 35
   },
   "ferroseed": {
-    "rating": 875.621977268088,
-    "rounds": 18
+    "rating": 861.3399454430681,
+    "rounds": 20
   },
   "ferrothorn": {
     "rating": 1099.2571671280557,
     "rounds": 22
   },
   "klink": {
-    "rating": 871.3707231510133,
-    "rounds": 24
+    "rating": 857.1562985675167,
+    "rounds": 25
   },
   "klang": {
     "rating": 874.5274517992056,
@@ -2436,8 +2436,8 @@
     "rounds": 24
   },
   "axew": {
-    "rating": 1165.9724696614849,
-    "rounds": 22
+    "rating": 1180.3313493292276,
+    "rounds": 24
   },
   "fraxure": {
     "rating": 1119.1662535865994,
@@ -2456,8 +2456,8 @@
     "rounds": 28
   },
   "cryogonal": {
-    "rating": 877.2532623109196,
-    "rounds": 24
+    "rating": 875.0353271551038,
+    "rounds": 25
   },
   "shelmet": {
     "rating": 1136.0114427117428,
@@ -2472,12 +2472,12 @@
     "rounds": 18
   },
   "mienfoo": {
-    "rating": 844.2690134465489,
-    "rounds": 21
+    "rating": 830.3767523925305,
+    "rounds": 22
   },
   "mienshao": {
-    "rating": 955.3372057472448,
-    "rounds": 18
+    "rating": 930.2626143004751,
+    "rounds": 19
   },
   "druddigon": {
     "rating": 1034.870481287371,
@@ -2508,8 +2508,8 @@
     "rounds": 30
   },
   "braviary": {
-    "rating": 861.1828198463602,
-    "rounds": 19
+    "rating": 864.8336535538834,
+    "rounds": 22
   },
   "vullaby": {
     "rating": 649.345520417769,
@@ -2532,8 +2532,8 @@
     "rounds": 20
   },
   "zweilous": {
-    "rating": 1148.0877724965603,
-    "rounds": 17
+    "rating": 1185.300882465031,
+    "rounds": 24
   },
   "hydreigon": {
     "rating": 1243.7181035305287,
@@ -2556,12 +2556,12 @@
     "rounds": 26
   },
   "virizion": {
-    "rating": 1158.3014690520547,
-    "rounds": 21
+    "rating": 1143.4408637318977,
+    "rounds": 22
   },
   "tornadus": {
-    "rating": 1360.3930512322672,
-    "rounds": 26
+    "rating": 1367.342856040372,
+    "rounds": 28
   },
   "thundurus": {
     "rating": 1326.8057872176776,
@@ -2680,8 +2680,8 @@
     "rounds": 37
   },
   "florges": {
-    "rating": 1045.4469099288633,
-    "rounds": 18
+    "rating": 1020.0294068058687,
+    "rounds": 23
   },
   "skiddo": {
     "rating": 828.4806141834271,
@@ -2764,8 +2764,8 @@
     "rounds": 28
   },
   "clauncher": {
-    "rating": 1026.711430139407,
-    "rounds": 18
+    "rating": 1077.3362843572856,
+    "rounds": 23
   },
   "clawitzer": {
     "rating": 1045.358714176935,
@@ -2832,8 +2832,8 @@
     "rounds": 23
   },
   "trevenant": {
-    "rating": 1309.009984594514,
-    "rounds": 24
+    "rating": 1322.0841687796076,
+    "rounds": 25
   },
   "pumpkaboo": {
     "rating": 893.1184160756723,
@@ -2844,8 +2844,8 @@
     "rounds": 22
   },
   "bergmite": {
-    "rating": 910.289215955813,
-    "rounds": 23
+    "rating": 925.0089830296614,
+    "rounds": 24
   },
   "avalugg": {
     "rating": 1105.3560282078608,
@@ -2936,8 +2936,8 @@
     "rounds": 20
   },
   "gumshoos": {
-    "rating": 736.6201995365902,
-    "rounds": 27
+    "rating": 734.1973246325015,
+    "rounds": 28
   },
   "grubbin": {
     "rating": 727.9336816439798,
@@ -3004,8 +3004,8 @@
     "rounds": 19
   },
   "araquanid": {
-    "rating": 726.2643940469436,
-    "rounds": 37
+    "rating": 725.5404529507558,
+    "rounds": 38
   },
   "fomantis": {
     "rating": 806.418615976936,
@@ -3060,12 +3060,12 @@
     "rounds": 20
   },
   "passimian": {
-    "rating": 795.9299296047154,
-    "rounds": 18
+    "rating": 777.08328001561,
+    "rounds": 20
   },
   "wimpod": {
-    "rating": 993.5201145945181,
-    "rounds": 23
+    "rating": 964.1033462703358,
+    "rounds": 27
   },
   "golisopod": {
     "rating": 1333.5984567129804,
@@ -3116,8 +3116,8 @@
     "rounds": 32
   },
   "drampa": {
-    "rating": 1217.0973745752608,
-    "rounds": 17
+    "rating": 1231.0974484693495,
+    "rounds": 18
   },
   "dhelmise": {
     "rating": 738.1037420752858,
@@ -3232,8 +3232,8 @@
     "rounds": 19
   },
   "melmetal": {
-    "rating": 874.0109876367383,
-    "rounds": 21
+    "rating": 888.8663832416348,
+    "rounds": 22
   },
   "grookey": {
     "rating": 1107.3891242141221,
@@ -3244,8 +3244,8 @@
     "rounds": 19
   },
   "rillaboom": {
-    "rating": 1175.0820211465796,
-    "rounds": 28
+    "rating": 1178.3580547616357,
+    "rounds": 29
   },
   "scorbunny": {
     "rating": 1172.0028649481835,
@@ -3420,8 +3420,8 @@
     "rounds": 19
   },
   "hatenna": {
-    "rating": 971.8401058103666,
-    "rounds": 18
+    "rating": 958.7116008415601,
+    "rounds": 19
   },
   "hattrem": {
     "rating": 1051.5263751091493,
@@ -3472,8 +3472,8 @@
     "rounds": 21
   },
   "alcremie": {
-    "rating": 703.5380315911875,
-    "rounds": 20
+    "rating": 689.0284996832128,
+    "rounds": 23
   },
   "falinks": {
     "rating": 1053.587597715107,
@@ -3512,8 +3512,8 @@
     "rounds": 21
   },
   "copperajah": {
-    "rating": 778.6090880826737,
-    "rounds": 21
+    "rating": 771.8263694006037,
+    "rounds": 22
   },
   "dracozolt": {
     "rating": 990.6756975092306,
@@ -3584,8 +3584,8 @@
     "rounds": 20
   },
   "spectrier": {
-    "rating": 1322.7548802857077,
-    "rounds": 33
+    "rating": 1325.9450937574175,
+    "rounds": 35
   },
   "calyrex": {
     "rating": 1081.9564767116974,
@@ -3624,8 +3624,8 @@
     "rounds": 19
   },
   "floragato": {
-    "rating": 1105.3176653208154,
-    "rounds": 32
+    "rating": 1137.245420713094,
+    "rounds": 34
   },
   "meowscarada": {
     "rating": 1247.018695735208,
@@ -3652,8 +3652,8 @@
     "rounds": 22
   },
   "quaquaval": {
-    "rating": 1119.1046355353924,
-    "rounds": 20
+    "rating": 1109.8519072089875,
+    "rounds": 24
   },
   "lechonk": {
     "rating": 721.1757410610543,
@@ -3672,8 +3672,8 @@
     "rounds": 19
   },
   "nymble": {
-    "rating": 808.9900767536254,
-    "rounds": 17
+    "rating": 826.4359603646063,
+    "rounds": 18
   },
   "lokix": {
     "rating": 774.9924862121137,
@@ -3792,8 +3792,8 @@
     "rounds": 22
   },
   "toedscruel": {
-    "rating": 699.8097201202876,
-    "rounds": 31
+    "rating": 678.7611791551315,
+    "rounds": 33
   },
   "klawf": {
     "rating": 1121.7103767780923,
@@ -3900,16 +3900,16 @@
     "rounds": 24
   },
   "veluza": {
-    "rating": 965.2982590848871,
-    "rounds": 22
+    "rating": 950.4729772198859,
+    "rounds": 23
   },
   "dondozo": {
     "rating": 1087.782139072265,
     "rounds": 26
   },
   "tatsugiri": {
-    "rating": 988.2021455147454,
-    "rounds": 21
+    "rating": 973.8697918450422,
+    "rounds": 22
   },
   "annihilape": {
     "rating": 1193.4600478191464,
@@ -3968,8 +3968,8 @@
     "rounds": 25
   },
   "iron-jugulis": {
-    "rating": 1015.2641724026403,
-    "rounds": 18
+    "rating": 1024.5437292673555,
+    "rounds": 22
   },
   "iron-moth": {
     "rating": 925.455444345636,
@@ -3984,8 +3984,8 @@
     "rounds": 21
   },
   "arctibax": {
-    "rating": 1103.155340634367,
-    "rounds": 18
+    "rating": 1149.0483378243678,
+    "rounds": 20
   },
   "baxcalibur": {
     "rating": 1123.1434882041053,
@@ -4032,8 +4032,8 @@
     "rounds": 28
   },
   "walking-wake": {
-    "rating": 1124.5793143506062,
-    "rounds": 17
+    "rating": 1069.192225499106,
+    "rounds": 19
   },
   "iron-leaves": {
     "rating": 924.0322850907085,
